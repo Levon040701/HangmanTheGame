@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Hangman</title>
+</head>
+<body onload="changeLang('eng')">
+    <header>
+        <div id="collapse">
+            <button id="collapseBtn">
+                &#8803;
+            </button>
+            <ul id="menu">
+                <li class="menuItem"><a href="">123</a></li>
+                <li class="menuItem"><a href="">abcd</a></li>
+                <li id="lang" class="menuItem">
+                    <p>Language</p>
+                    <ul>
+                        <li><button id="eng" onclick="changeLang(this.id)">English</button></li>
+                        <li><button id="es" onclick="changeLang(this.id)">Español</button></li>
+                        <li><button id="fr" onclick="changeLang(this.id)">Français</button></li>
+                        <li><button id="ru" onclick="changeLang(this.id)">Русский</button></li>
+                        <li><button id="ua" onclick="changeLang(this.id)">Українська</button></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <p id="date"></p>
+    </header>
+    <div id="content">
+        <h1>THE HANGMAN</h1>
+        <br>
+        <div id="gameWrapper">
+            <div id="gameContainer" class="blurLayer">
+                <div id="draw_incorrect">
+                    <div id="drawing">
+                        <p></p>
+                    </div>
+                    <div id="rightCol">
+                        <p id="incorrect"><br></p>
+                        <p id="hint"></p>
+                    </div>
+                </div>
+                <p id="word"></p>
+                <div id="playerSide">
+                    <form name="lettersInput" action="" onsubmit="return processTheLetter()" method="post">
+                        <input name="guesses" type="text" autocomplete="off">
+                    </form>
+                    <button id="hintButton" onclick="w.showHint()">?</button>
+                </div>
+            </div>
+            <div id="newGame" class="blurLayer">
+                <button id="playButton" onclick="document.getElementById('gameEnd').innerText = ''; start()"></button>
+                <p id="gameEnd"></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="copyright">
+            <p><span>Levon Sargyan &copy</span> 2024</p>
+            <br>
+            <p id="email">levon.sargsyan2@tumo.org</p>
+        </div>
+        <div id="contact">
+            <a href="#" class="links"><img src="images/youtube_logo.png" alt=""></a>
+            <a href="#" class="links"><img src="images/facebook_logo.png" alt=""></a>
+            <a href="#" class="links"><img src="images/instagram_logo.png" alt=""></a>
+            <a href="#" class="links"><img src="images/telegram_logo.png" alt=""></a>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+    <script src="language_db.js"></script>
+</body>
+</html>
