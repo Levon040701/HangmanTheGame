@@ -99,52 +99,52 @@ const themes_ru = [];
 const themes_ua = [];
 
 let themeName = 'Vocaloids';
-let wordsMapping = [{"Miku": "leek"}, {"Luka": "tuna"}, {"Rin": "orange"}, {"Len": "banana"}, {"Kaito": "icecream"}, {"Meiko": "sake"}];
+let wordsMapping = [{"Miku": "leek"}, {"Luka": "tuna"}, {"Rin": "orange"}, {"Len": "banana"}, {"Kaito": "icecream"}, {"Meiko": "sake"}, {"Gakupo": "eggplant"}, {"Gumi": "carrot"}, {"Mayu": "bunny"}];
 const vocaloid_eng = new Theme(themeName, wordsMapping, 'Symbol: ');
 themes_eng.push(vocaloid_eng);
 
 themeName = 'Vocaloides';
-wordsMapping = [{"Miku": "puerro"}, {"Luka": "atún"}, {"Rin": "naranja"}, {"Len": "plátano"}, {"Kaito": "helado"}, {"Meiko": "espíritu"}];
+wordsMapping = [{"Miku": "puerro"}, {"Luka": "atún"}, {"Rin": "naranja"}, {"Len": "plátano"}, {"Kaito": "helado"}, {"Meiko": "espíritu"}, {"Gakupo": "berenjena"}, {"Gumi": "zanahoria"}, {"Mayu": "conejito de peluche"}];
 const vocaloid_es = new Theme(themeName, wordsMapping, 'Símbolo: ');
 themes_es.push(vocaloid_es);
 
 themeName = 'Vocaloïdes';
-wordsMapping = [{"Miku": "poireau"}, {"Luka": "thon"}, {"Rin": "orange"}, {"Len": "banan"}, {"Kaïto": "glace"}, {"Meïko": "saké"}];
+wordsMapping = [{"Miku": "poireau"}, {"Luka": "thon"}, {"Rin": "orange"}, {"Len": "banan"}, {"Kaïto": "glace"}, {"Meïko": "saké"}, {"Gakupo": "aubergine"}, {"Gumi": "carotte"}, {"Mayu": "lapin en peluche"}];
 const vocaloid_fr = new Theme(themeName, wordsMapping, 'Le symbole: ');
 themes_fr.push(vocaloid_fr);
 
 themeName = 'Вокалоиды';
-wordsMapping = [{"Мику": "лук порей"}, {"Лука": "тунец"}, {"Рин": "апельсин"}, {"Лен": "банан"}, {"Кайто": "мороженое"}, {"Мейко": "сакэ"}];
+wordsMapping = [{"Мику": "лук порей"}, {"Лука": "тунец"}, {"Рин": "апельсин"}, {"Лен": "банан"}, {"Кайто": "мороженое"}, {"Мейко": "сакэ"}, {"Гакупо": "баклажан"}, {"Гуми": "морковь"}, {"Маю": "плюшевый заяц"}];
 const vocaloid_ru = new Theme(themeName, wordsMapping, 'Символ: ');
 themes_ru.push(vocaloid_ru);
 
 themeName = 'Вокалоїди';
-wordsMapping = [{"Міку": "зелена цибуля"}, {"Лука": "тунець"}, {"Рiн": "апельсин"}, {"Лен": "банан"}, {"Кайто": "морозиво"}, {"Мейко": "саке"}];
+wordsMapping = [{"Міку": "зелена цибуля"}, {"Лука": "тунець"}, {"Рiн": "апельсин"}, {"Лен": "банан"}, {"Кайто": "морозиво"}, {"Мейко": "саке"}, {"Гакупо": "баклажан"}, {"Гуми": "морква"}, {"Маю": "плюшевий заєць"}];
 const vocaloid_ua = new Theme(themeName, wordsMapping, 'Символ: ');
 themes_ua.push(vocaloid_ua);
 
 themeName = 'Countries';
-wordsMapping = [{"Armenia": "Yerevan"}, {"Russia": "Moscow"}, {"UK": "London"}, {"Italy": "Rome"}, {"Spain": "Madrid"}, {"Greece": "Athenes"}, {"USA": "Washington"}, {"Canada": "Ottawa"}, {"Ukraine": "Kyiv"}, {"China": "Beijing"}, {"Japan": "Tokyo"}, {"Israel": "Jerusalem"}, {"Mexico": "Mexico City"}, {"Argentina": "Buenos Aires"}, {"France": "Paris"}, {"Germany": "Berlin"}, {"India": "Delhi"}, {"Australia": "Canberra"}, {"Georgia": "Tbilisi"}, {"Egypt": "Cairo"}, {"Brazil": "Brazilia"}];
+wordsMapping = [{"Armenia": "Yerevan"}, {"Russia": "Moscow"}, {"UK": "London"}, {"Italy": "Rome"}, {"Spain": "Madrid"}, {"Greece": "Athenes"}, {"USA": "Washington"}, {"Canada": "Ottawa"}, {"Ukraine": "Kyiv"}, {"China": "Beijing"}, {"Japan": "Tokyo"}, {"Israel": "Jerusalem"}, {"Mexico": "Mexico City"}, {"Argentina": "Buenos Aires"}, {"France": "Paris"}, {"Germany": "Berlin"}, {"India": "Delhi"}, {"Australia": "Canberra"}, {"Georgia": "Tbilisi"}, {"Egypt": "Cairo"}, {"Brazil": "Brazilia"}, {"Sweden": "Stockholm"}, {"Norway": "Oslo"}, {"Finnland": "Helsinki"}, {"Ireland": "Dublin"}, {"Ethiopia": "Addis Ababa"}, {"South Korea": "Seul"}, {"Iraq": "Bagdad"}];
 const country_eng = new Theme(themeName, wordsMapping, 'Capital: ');
 themes_eng.push(country_eng);
 
 themeName = 'Estados';
-wordsMapping = [{"Armenia": "Ereván"}, {"Rusia": "Moscú"}, {"Reino Unido": "Londres"}, {"Itaia": "Roma"}, {"España": "Madrid"}, {"Grecia": "Atenas"}, {"EUA": "Washington"}, {"Canadá": "Ottawa"}, {"Ucrania": "Kyiv"}, {"China": "Beijing"}, {"Japón": "Tokio"}, {"Israel": "Jerusalén"}, {"México": "Ciudad de México"}, {"Argentina": "Buenos Aires"}, {"Francia": "París"}, {"Alemania": "Berlina"}, {"India": "Delhi"}, {"Australia": "Canberra"}, {"Georgia": "Tiflis"}, {"Egipto": "El Cairo"}, {"Brasil": "Brasilia"}];
+wordsMapping = [{"Armenia": "Ereván"}, {"Rusia": "Moscú"}, {"Reino Unido": "Londres"}, {"Itaia": "Roma"}, {"España": "Madrid"}, {"Grecia": "Atenas"}, {"EUA": "Washington"}, {"Canadá": "Ottawa"}, {"Ucrania": "Kyiv"}, {"China": "Beijing"}, {"Japón": "Tokio"}, {"Israel": "Jerusalén"}, {"México": "Ciudad de México"}, {"Argentina": "Buenos Aires"}, {"Francia": "París"}, {"Alemania": "Berlina"}, {"India": "Delhi"}, {"Australia": "Canberra"}, {"Georgia": "Tiflis"}, {"Egipto": "El Cairo"}, {"Brasil": "Brasilia"}, {"Suecia": "Estocolmo"}, {"Noruega": "Oslo"}, {"Finlandia": "Helsinki"}, {"Irlanda": "Dublín"}, {"Etiopía": "Addis Abeba"}, {"Corea del Sur": "Seúl"}, {"Irak": "Bagdad"}];
 const country_es = new Theme(themeName, wordsMapping, 'Ciudad capital: ');
 themes_es.push(country_es);
 
 themeName = 'Les états';
-wordsMapping = [{"Arménie": "Yérévan"}, {"Russe": "Moscou"}, {"Grande Bretagne": "Londres"}, {"Italie": "Rome"}, {"Éspagne": "Madrid"}, {"Grèce": "Athènes"}, {"ÉUA": "Washington"}, {"Canada": "Ottawa"}, {"Ukraine": "Kyiv"}, {"Chine": "Pékin"}, {"Japon": "Tokyo"}, {"Israël": "Jérusalem"}, {"Mexique": "Mexico"}, {"Argentine": "Buenos Aires"}, {"France": "Paris"}, {"Allemange": "Berlin"}, {"Inde": "Delhi"}, {"Australie": "Canberra"}, {"Georgie": "Tbilissi"}, {"Égypte": "Caire"}, {"Brésil": "Brasília"}];
+wordsMapping = [{"Arménie": "Yérévan"}, {"Russe": "Moscou"}, {"Grande Bretagne": "Londres"}, {"Italie": "Rome"}, {"Éspagne": "Madrid"}, {"Grèce": "Athènes"}, {"ÉUA": "Washington"}, {"Canada": "Ottawa"}, {"Ukraine": "Kyiv"}, {"Chine": "Pékin"}, {"Japon": "Tokyo"}, {"Israël": "Jérusalem"}, {"Mexique": "Mexico"}, {"Argentine": "Buenos Aires"}, {"France": "Paris"}, {"Allemange": "Berlin"}, {"Inde": "Delhi"}, {"Australie": "Canberra"}, {"Georgie": "Tbilissi"}, {"Égypte": "Caire"}, {"Brésil": "Brasília"}, {"Suède": "Stockholm"}, {"Norvège": "Oslo"}, {"Finlande": "Helsinki"}, {"Irlande": "Dublin"}, {"Ethiopie": "Addis-Abeba"}, {"Corée du Sud": "Séoul"}, {"Irak": "Bagdad"}];
 const country_fr = new Theme(themeName, wordsMapping, 'La capitale: ');
 themes_fr.push(country_fr);
 
 themeName = 'Государства';
-wordsMapping = [{"Армения": "Ереван"}, {"Россия": "Москва"}, {"Великобритания": "Лондон"}, {"Италия": "Рим"}, {"Испания": "Мадрид"}, {"Греция": "Афины"}, {"США": "Вашингтон"}, {"Канада": "Оттава"}, {"Украина": "Киев"}, {"Китай": "Пекин"}, {"Япония": "Токио"}, {"Израиль": "Иерусалим"}, {"Мексика": "Мехико"}, {"Аргентина": "Буэнос-Айрес"}, {"Франция": "Париж"}, {"Германия": "Берлин"}, {"Индия": "Дели"}, {"Австралия": "Канберра"}, {"Грузия": "Тбилиси"}, {"Египет": "Каир"}, {"Бразилия": "Бразилиа"}];
+wordsMapping = [{"Армения": "Ереван"}, {"Россия": "Москва"}, {"Великобритания": "Лондон"}, {"Италия": "Рим"}, {"Испания": "Мадрид"}, {"Греция": "Афины"}, {"США": "Вашингтон"}, {"Канада": "Оттава"}, {"Украина": "Киев"}, {"Китай": "Пекин"}, {"Япония": "Токио"}, {"Израиль": "Иерусалим"}, {"Мексика": "Мехико"}, {"Аргентина": "Буэнос-Айрес"}, {"Франция": "Париж"}, {"Германия": "Берлин"}, {"Индия": "Дели"}, {"Австралия": "Канберра"}, {"Грузия": "Тбилиси"}, {"Египет": "Каир"}, {"Бразилия": "Бразилиа"}, {"Швеция": "Стокгольм"}, {"Норвегия": "Осло"}, {"Финляндия": "Хельсинки"}, {"Ирландия": "Дублин"}, {"Эфиопия": "Аддис-Абеба"}, {"Южная Корея": "Сеул"}, {"Ирак": "Багдад"}];
 const country_ru = new Theme(themeName, wordsMapping, 'Столица: ');
 themes_ru.push(country_ru);
 
 themeName = 'Держави';
-wordsMapping = [{"Вірменія": "Єреван"}, {"Росія": "Москва"}, {"Великобританія": "Лондон"}, {"Італія": "Рим"}, {"Іспанія": "Мадрид"}, {"Греція": "Афіни"}, {"США": "Вашингтон"}, {"Канада": "Оттава"}, {"Україна": "Київ"}, {"Китай": "Пекін"}, {"Японія": "Токіо"}, {"Ізраїль": "Єрусалим"}, {"Мексика": "Мехіко"}, {"Аргентина": "Буенос-Айрес"}, {"Франція": "Париж"}, {"Німеччина": "Берлін"}, {"Индия": "Делі"}, {"Австралія": "Канберра"}, {"Грузія": "Тбілісі"}, {"Єгипет": "Каїр"}, {"Бразилія": "Бразиліa"}];
+wordsMapping = [{"Вірменія": "Єреван"}, {"Росія": "Москва"}, {"Великобританія": "Лондон"}, {"Італія": "Рим"}, {"Іспанія": "Мадрид"}, {"Греція": "Афіни"}, {"США": "Вашингтон"}, {"Канада": "Оттава"}, {"Україна": "Київ"}, {"Китай": "Пекін"}, {"Японія": "Токіо"}, {"Ізраїль": "Єрусалим"}, {"Мексика": "Мехіко"}, {"Аргентина": "Буенос-Айрес"}, {"Франція": "Париж"}, {"Німеччина": "Берлін"}, {"Индия": "Делі"}, {"Австралія": "Канберра"}, {"Грузія": "Тбілісі"}, {"Єгипет": "Каїр"}, {"Бразилія": "Бразиліa"}], {"Швеція": "Стокгольм"}, {"Норвегія": "Осло"}, {"Фінляндія": "Гельсінкі"}, {"Ірландія": "Дублін"}, {"Ефіопія": "Аддіс-Абеба"}, {"Південна Корея": "Сеул"}, {"Ірак": "Багдад"};
 const country_ua = new Theme(themeName, wordsMapping, 'Столиця: ');
 themes_ua.push(country_ua);
 
@@ -233,28 +233,39 @@ function processTheLetter() {
     document.querySelector('#drawing > p').innerText = w.updateDrawing(count);
     w.showIncorrect();
 
-    if (count === 6) {
+    if (count === 6 || w.win()) {
+        if (count === 6) {
+            console.log(loose + w.word);
+            document.getElementById('gameEnd').innerText = loose + w.word;
+        }
+        if ( w.win() ) {
+            console.log(win);
+            document.getElementById('gameEnd').innerText = win;
+        }
         // document.getElementById('gameContainer').style.display = 'none';
         document.forms['lettersInput']['guesses'].readOnly = true;
         document.forms['lettersInput']['guesses'].blur();
-        document.getElementById('newGame').style.backdropFilter = 'blur(5px)';
-        console.log(loose + w.word);
-        document.getElementById('gameEnd').innerText = loose + w.word;
-        newGame.style.display = 'block';
-        return false;
-    }
-    
-    if ( w.win() ) {
-        // document.getElementById('gameContainer').style.display = 'none';
-        document.forms['lettersInput']['guesses'].readOnly = true;
-        document.forms['lettersInput']['guesses'].blur();
-        document.getElementById('newGame').style.backdropFilter = 'blur(5px)';
-        console.log(win);
-        document.getElementById('gameEnd').innerText = win;
+        // document.getElementById('newGame').style.backgroundColor = 'rgba(255, 255, 255, .8)';
+        blurAnimation(document.getElementById('newGame'));
         newGame.style.display = 'block';
         return false;
     }
 
     return false;
+}
+
+function blurAnimation(elem) {
+    elem.style.backdropFilter = 'blur(0px)';
+    let id = null;
+    let blurValue = 0;
+    clearInterval(id);
+    id = setInterval(function () {
+        if (blurValue >= 3) {
+            clearInterval(id);
+        } else {
+            blurValue += 0.02;
+            elem.style.backdropFilter = 'blur(' + blurValue + 'px)';
+        }
+    }, 5);
 }
 
