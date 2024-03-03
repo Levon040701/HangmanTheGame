@@ -136,5 +136,8 @@ function changeLang(language) {
     for (const link in menuLinks) {
         menuLinks[link].title = allElements.refTitle[language];
     }
+
+    document.getElementById('newGame').style.display = 'block';
+    document.getElementById('gameContainer').style.display = 'none';
 }
 
