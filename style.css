@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 
 body {
@@ -19,6 +21,12 @@ header {
 h1 {
     text-align: center;
     color: black;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.3em;
+    }
 }
 
 a {
@@ -103,9 +111,6 @@ ul {
 
     #menu {
         display: none;
-    }
-
-    #menu {
         width: fit-content;
         position: absolute;
         left: 0;
@@ -114,6 +119,10 @@ ul {
 
     #menu > li {
         width: fit-content;
+    }
+
+    #menu, #lang button {
+        font-size: 0.8em;
     }
 
     #collapseBtn {
@@ -151,6 +160,7 @@ header::after {
     height: 100%;
     margin: 0 auto;
     padding: 120px 15%;
+    overflow: hidden;
 }
 
 #gameContainer {
@@ -162,7 +172,7 @@ header::after {
 
 #drawing {
     float: left;
-    font-size: 1.45em;
+    font-size: 1.1em;
 }
 
 #rightCol {
